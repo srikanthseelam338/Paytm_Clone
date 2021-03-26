@@ -1,0 +1,553 @@
+@import url( 'https://fonts.google.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+  background-color: white;  
+}
+#pay1>p{
+    background-color: red;
+    width: 7%;
+    color: white;
+    border-radius: 3px;
+    position: relative;
+    top: -1px;
+    margin-left: 40px;
+    font-size: 13px;
+    letter-spacing: normal;
+    height: 16px;
+}
+#pay1{
+
+display: flex;
+    height: 26px;
+    padding: 5px 4%;
+    border: 2px solid white;
+    background-color: #f3f7f8;
+    color: #828282;
+}
+#pay1>span{
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+#pay1>div{
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: -15px;
+    margin-left: 200px;
+
+}
+#pay1>div>li{
+    padding: 7px;
+    position: relative;
+    top: 5px;
+    color: light green;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+#secondBlock #pay2 img{
+    position: relative;
+    top: -21px;
+width: 15%;
+margin-left: 100px
+
+}
+#secondBlock{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    width: 95%;
+    margin: 0 auto;
+    height: 70px;
+    
+}
+#secondBlock article{
+    display: flex;
+}
+#pay3 input{
+    width: 400px;
+    margin-left: -408px;
+    margin-top: 9px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-bottom: #ebebeb!important;
+}
+#pay3 span{
+    margin-left: -392px;
+    background-color: white;
+}
+span i{
+    position: relative;
+    top: 3px;
+    background-color: white;
+}
+#pay4 img{
+    position: relative;
+    top: 13px;
+    right: -218px;
+    background-color: white;
+}
+#pay4 p{
+    position: relative;
+    top: -11px;
+    right: -250px;
+    background-color: white;
+}
+#pay5 img{
+    margin-left: 294px;
+    position: relative;
+    top: 9px;
+    background-color: white;
+}
+#pay5>p{
+    position: relative;
+    margin-left: 334px;
+    top: -18px;
+    background-color: white;
+}
+
+#pay6 span{
+    position: relative;
+    top: 13px;
+    right: -20px;
+    background-color: white;
+}
+#pay6>img{
+    height: 25px;
+    position: relative;
+    top: 8px;
+    right: -18px;
+    background-color: white;
+}
+#pay6>p{
+    position: relative;
+    margin-left: 63px;
+    top: -17px;background-color: white;
+}
+#pay7>img{
+    height: 25px;
+    position: relative;
+    top: 9px;
+    right: -18px;
+    background-color: white;
+}
+#pay7>p{
+    position: relative;
+    margin-left: 63px;
+    top: -17px;
+    background-color: white;
+}
+#thirdBlock{
+    background-color: #012b72;
+    position: relative;
+   
+}
+#pay8{
+    background-color: #012b72;
+    height: 200px;
+    display: flex;
+    width: 100%;
+}
+#pay8 li{
+    list-style: none;
+
+width: 1px;
+height: 1px;
+margin: 10px auto;
+}
+#pay8 li img{
+    width: 30px;
+    position: relative;
+    margin-left: -30px;
+}
+p1{
+    position: relative;
+    margin-left: -52px;
+    top: 4px;
+}
+p2{
+    position: relative;
+    margin-left: -30px;
+    top: 5px;  
+}
+p3{
+    position: relative;
+    margin-left: -45px;
+    top: 23px;  
+    right: -8px;
+}
+p4{
+    position: relative;
+    margin-left: -45px;
+    top: 23px;
+    right: -10px;  
+}
+p5{
+    position: relative;
+    margin-left: -45px;
+    top: 4px;  
+}
+p6{
+    position: relative;
+    margin-left: -45px;
+    top: -2px;  
+}
+p7{
+    position: relative;
+    margin-left: -45px;
+    top: 4px;  
+}
+p8{
+    position: relative;
+    margin-left: -45px;
+    top: 5px;  
+}
+p9{
+    position: relative;
+    margin-left: -92px;
+    top: 23px;  
+    right: -30px;
+}
+p10{
+    position: relative;
+    margin-left: -82px;
+    top: 17px;  
+    right: -35px;
+}
+p11{
+    position: relative;
+    margin-left: -92px;
+    top: 24px; 
+    right: -31px; 
+}
+p11:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p10:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p9:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p8:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p7:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p6:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p5:hover{
+    background-color: #012b72;
+    cursor: pointer;
+
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p4:hover{
+    background-color: #012b72;
+    cursor: pointer;
+
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p3:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p2:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    
+    transform: (-1-1);
+    color: #f3f7f8;
+
+}
+p1:hover{
+    background-color: #012b72;
+    cursor: pointer;
+    color: #f3f7f8;
+
+}
+#fourthBlock{
+    border: 3px solid #ebebeb;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -108px;
+    border-radius: 5px;
+}
+#fourthBlock header{
+    color: black;
+    background-color: white;
+    
+    width: 100%;
+    margin: 0 auto;
+    height: 52px;
+}
+#pay9{
+    color: black;
+    
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: white;
+}
+#fourthBlock article{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+    height: 100px;
+}
+#inp1{
+    position: relative;
+    top: 13px;
+    right: 67px;
+    height: 10px;
+    border-bottom: black solid 2px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+
+}
+#inp2{
+    position: relative;
+    top: 13px;
+    right: 49px;
+    height: 10px;
+    border-bottom: black solid 2px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+width: 280px;
+
+}
+#inp3{
+    position: relative;
+    top: 13px;
+    right: 49px;
+    height: 10px;
+    width: 250px;
+    border-bottom: black solid 2px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+left: -13px;
+
+}
+#inp4{
+    position: relative;
+    top: 32px;
+    right: -14px;
+    height: 50px;
+    width: 300px;
+    background-color: #00b9f5;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+    border-width: 0;
+    font-weight: 600;
+    top: 1px;
+    
+}
+p12{
+    position: relative;
+    top: 19px;
+    right: 64px;
+}
+p13{
+    position: relative;
+    top: 17px;
+    right: 50px;
+}
+p14{
+    position: relative;
+    top: 18px;
+    right: 12px;
+}
+
+
+#pay9 #inp5{
+position: relative;
+
+right: -35px;
+}
+p15{
+    position: relative;
+    top: -2;
+    right: -36px;
+}
+p16{
+    position: relative;
+    top: -1;
+    right: -59px;
+}
+#pay9 #inp6{
+    position: relative;
+    
+    right: -55px;
+    }
+p17{
+    position: relative;
+    top: 11px;
+    right: -36px;
+}
+#inp8{
+    position: relative;
+    top: 61px;
+    left: 553px;
+    padding: 300px;
+}
+p18{
+    position: relative;
+    left: 769px;
+    top: 59px;
+    color: #00b9f5;
+    font-size: 21px;
+}
+p19{
+    position: relative;
+    top: 79px;
+    left: 561px;
+    font-size: 14px;
+    color: #012b72;
+}
+#forword i{
+    position: relative;
+    top: 62px;
+    left: 329px;
+    
+
+}
+/*----------*/
+
+#slider{
+    overflow: hidden;
+    
+}
+#slider figure{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    
+}
+#slider figure img{
+    width: 10%;
+    float: left;
+    height: 125px;
+}
+@keyframes slider{
+10%{
+    left: 10%;
+}
+20%{
+    left: 30%;
+}
+25%{
+    left: -50%;
+}
+45%{
+    left: -0%;
+}
+50%{
+    left: -60%;
+}
+70%{
+    left: -70%;
+}
+75%{
+    left: -80%;
+
+}
+}
+#fifthBlock{
+    
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #ebebeb;
+    top: -100px;
+    position: relative;
+    height: 135px;
+    border-radius: 4px;
+}
+/*-------*/
+#sixthBlock{
+width: 100%;
+height: 1000px;
+margin: 0 auto;
+overflow: hidden;
+
+}
+#sixthBlock img{
+    height: 1000px;
+    top: 13px;
+    position: relative;
+    border: 1px solid #ebebeb;
+    overflow: auto;
+    border-radius: 3px;
+}
+/*------*/
+#phoneBlock{
+    width: 100%;
+    border-radius: 5px;
+    height: 230px;
+    border: 3px solid #ebebeb;
+    top: 20px;
+    position: relative;
+}
+#phoneBlock article{
+    display: flex;
+    height: 500px;
+    width: 100% ;
+}
+
+#phoneBlock article div img{
+    height: 200px;
+    width: 100%;
+    padding: 50px auto;
+}
